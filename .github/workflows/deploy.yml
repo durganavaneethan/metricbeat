@@ -16,6 +16,7 @@ jobs:
         username:  durga
         password:  fXwnGC3p9mu0U2G
         port: 22
+        KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
                whoami
                ls -l

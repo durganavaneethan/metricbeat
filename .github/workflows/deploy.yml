@@ -12,7 +12,7 @@ jobs:
     - name: executing remote ssh commands using ssh key
       uses: appleboy/ssh-action@master
       with:
-        host: dev-bas-devops.nac.ibm.com
+        host: 146.89.11.134
         username:  durga
         password:  fXwnGC3p9mu0U2G
         port: 22
